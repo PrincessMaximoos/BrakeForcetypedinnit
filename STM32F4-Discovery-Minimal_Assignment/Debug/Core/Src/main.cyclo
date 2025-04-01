@@ -1,0 +1,5 @@
+../Core/Src/main.c:61:5:main	1
+../Core/Src/main.c:82:6:init_rs232	1
+../Core/Src/main.c:121:6:SystemClock_Config	1
+../Core/Src/main.c:159:6:Error_Handler	1
+../Core/Src/main.c:172:12:program_loop	1
