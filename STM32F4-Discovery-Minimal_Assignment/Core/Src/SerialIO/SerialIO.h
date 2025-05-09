@@ -39,6 +39,7 @@
 /* Function prototypes (code generation followed by alphabetical) ------------*/
 extern void init_serial_io(void);
 
-
+/* Global variables ----------------------------------------------------------*/
+extern UART_HandleTypeDef serialIO;
 
 #endif /* SRC_SERIALIO_SERIALIO_H_ */

@@ -3,7 +3,7 @@
 
 
 /*Global Variables------------------------------------------------------*/
-static UART_HandleTypeDef serialIO;
+UART_HandleTypeDef serialIO;
 
 /**
   * @brief Initialise UART6 (PC6/7 TX/RX) for RS232 on Expansion Board
