@@ -836,6 +836,7 @@ static State state_automatic(MachineData *ptrData)
 		bForce = (bForce > 100) ? 100 : bForce;
 	}
 	setBrake(bForce);
+	gTxByte = bForce;
 	printf("%.2f%% bForce\t | %.2fm/s\t | %.2fm/s max\t | %.2fm/s average\r\n", bForce, speed, ptrData -> maxSpeed, averageSpeed);
 
 
