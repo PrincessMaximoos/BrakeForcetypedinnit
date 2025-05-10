@@ -870,6 +870,9 @@ static State state_safe(MachineData *ptrData)
 		ptrData -> lastTick = HAL_GetTick();
 	}
 
+	printf("The user must reset the module to continue\r\n");
+	printf("BrakeForce is 100%%");
+
 	setBrake(100);
 	gTxByte = 100;
 
